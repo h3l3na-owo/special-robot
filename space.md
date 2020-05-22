@@ -11,8 +11,8 @@ click to shoot, arrows to move
 
 <script>
 for(var i=0; i < 10; i+=2){
-	document.getElementById("teeext").innerHTML += "Text added by JavaScript code\n";
-	sleep(500);
+	document.getElementById("teeext").innerHTML += "Waiting...\n";
+	setTimeout(function () { document.getElementById("teeext").innerHTML += "Text added by JavaScript code\n"; }, 500*i);
 }
 
 </script>
