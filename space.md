@@ -10,7 +10,7 @@ click to shoot, arrows to move
  
 
 <script>
-for(var i=0; i < 10; i+=2){
+for(var i=0; i < 100; i+=1){
 	document.getElementById("teeext").innerHTML += "Waiting...\n";
 	setTimeout(function () { document.getElementById("teeext").innerHTML += "Text added by JavaScript code\n"; }, 500*i);
 }
