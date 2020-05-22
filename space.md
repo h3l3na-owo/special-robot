@@ -10,6 +10,9 @@ click to shoot, arrows to move
  
 
 <script>
-document.getElementById("teeext").innerHTML = "Text added by JavaScript code";
+for(var i=0; i < 10; i+=2){
+	document.getElementById("teeext").innerHTML += "Text added by JavaScript code\n";
+	sleep(500);
+}
 
 </script>
